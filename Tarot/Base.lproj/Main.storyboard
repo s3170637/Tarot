@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tarot" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Fool.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8eQ-v1-Np1">
+                                <rect key="frame" x="185" y="0.0" width="230" height="400"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Think of a question, then click a button" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETz-3e-u4T">
+                                <rect key="frame" x="185" y="408" width="230" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jO5-w4-axd">
+                                <rect key="frame" x="185" y="437" width="230" height="30"/>
+                                <state key="normal" title="Ask the oracle!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="askTheOracle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Uk-CU-tlr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1222439756" green="0.60793101530000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="8eQ-v1-Np1" secondAttribute="centerX" id="7zd-BY-yQe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jO5-w4-axd" secondAttribute="bottom" constant="20" id="JI2-yL-MrL"/>
+                            <constraint firstItem="8eQ-v1-Np1" firstAttribute="centerX" secondItem="ETz-3e-u4T" secondAttribute="centerX" id="LXz-M6-WtN"/>
+                            <constraint firstItem="8eQ-v1-Np1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="Va2-Ho-h6O"/>
+                            <constraint firstItem="8eQ-v1-Np1" firstAttribute="centerX" secondItem="jO5-w4-axd" secondAttribute="centerX" id="elL-kY-BBv"/>
+                            <constraint firstItem="ETz-3e-u4T" firstAttribute="top" secondItem="8eQ-v1-Np1" secondAttribute="bottom" constant="8" id="epo-1H-jE3"/>
+                            <constraint firstItem="jO5-w4-axd" firstAttribute="top" secondItem="ETz-3e-u4T" secondAttribute="bottom" constant="8" id="jod-nY-OKb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblAnswers" destination="ETz-3e-u4T" id="JsK-Mp-yK3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="301" y="391"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Fool.jpg" width="300" height="519"/>
+    </resources>
 </document>

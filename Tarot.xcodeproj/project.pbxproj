@@ -13,6 +13,29 @@
 		9A60F40F1AA5BA54006C625A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F40E1AA5BA54006C625A /* Images.xcassets */; };
 		9A60F4121AA5BA54006C625A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4101AA5BA54006C625A /* LaunchScreen.xib */; };
 		9A60F41E1AA5BA55006C625A /* TarotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F41D1AA5BA55006C625A /* TarotTests.swift */; };
+		9A60F4401AA5BA97006C625A /* Chariot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F42A1AA5BA97006C625A /* Chariot.jpg */; };
+		9A60F4411AA5BA97006C625A /* Death.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F42B1AA5BA97006C625A /* Death.jpg */; };
+		9A60F4421AA5BA97006C625A /* Devil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F42C1AA5BA97006C625A /* Devil.jpg */; };
+		9A60F4431AA5BA97006C625A /* Emperor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F42D1AA5BA97006C625A /* Emperor.jpg */; };
+		9A60F4441AA5BA97006C625A /* Empress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F42E1AA5BA97006C625A /* Empress.jpg */; };
+		9A60F4451AA5BA97006C625A /* Fool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F42F1AA5BA97006C625A /* Fool.jpg */; };
+		9A60F4461AA5BA97006C625A /* HangedMan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4301AA5BA97006C625A /* HangedMan.jpg */; };
+		9A60F4471AA5BA97006C625A /* Heirophant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4311AA5BA97006C625A /* Heirophant.jpg */; };
+		9A60F4481AA5BA97006C625A /* Hermit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4321AA5BA97006C625A /* Hermit.jpg */; };
+		9A60F4491AA5BA97006C625A /* HighPriestess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4331AA5BA97006C625A /* HighPriestess.jpg */; };
+		9A60F44A1AA5BA97006C625A /* Judgement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4341AA5BA97006C625A /* Judgement.jpg */; };
+		9A60F44B1AA5BA97006C625A /* Justice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4351AA5BA97006C625A /* Justice.jpg */; };
+		9A60F44C1AA5BA97006C625A /* Lovers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4361AA5BA97006C625A /* Lovers.jpg */; };
+		9A60F44D1AA5BA97006C625A /* Magician.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4371AA5BA97006C625A /* Magician.jpg */; };
+		9A60F44E1AA5BA97006C625A /* Moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4381AA5BA97006C625A /* Moon.jpg */; };
+		9A60F44F1AA5BA97006C625A /* Star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F4391AA5BA97006C625A /* Star.jpg */; };
+		9A60F4501AA5BA97006C625A /* Strength.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F43A1AA5BA97006C625A /* Strength.jpg */; };
+		9A60F4511AA5BA97006C625A /* Sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F43B1AA5BA97006C625A /* Sun.jpg */; };
+		9A60F4521AA5BA97006C625A /* Temperance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F43C1AA5BA97006C625A /* Temperance.jpg */; };
+		9A60F4531AA5BA97006C625A /* Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F43D1AA5BA97006C625A /* Tower.jpg */; };
+		9A60F4541AA5BA97006C625A /* WheelOfFortune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F43E1AA5BA97006C625A /* WheelOfFortune.jpg */; };
+		9A60F4551AA5BA97006C625A /* World.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F43F1AA5BA97006C625A /* World.jpg */; };
+		9A60F4581AA5C192006C625A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F4571AA5C192006C625A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,29 @@
 		9A60F4171AA5BA55006C625A /* TarotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A60F41C1AA5BA55006C625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A60F41D1AA5BA55006C625A /* TarotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotTests.swift; sourceTree = "<group>"; };
+		9A60F42A1AA5BA97006C625A /* Chariot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chariot.jpg; sourceTree = "<group>"; };
+		9A60F42B1AA5BA97006C625A /* Death.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Death.jpg; sourceTree = "<group>"; };
+		9A60F42C1AA5BA97006C625A /* Devil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Devil.jpg; sourceTree = "<group>"; };
+		9A60F42D1AA5BA97006C625A /* Emperor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emperor.jpg; sourceTree = "<group>"; };
+		9A60F42E1AA5BA97006C625A /* Empress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Empress.jpg; sourceTree = "<group>"; };
+		9A60F42F1AA5BA97006C625A /* Fool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fool.jpg; sourceTree = "<group>"; };
+		9A60F4301AA5BA97006C625A /* HangedMan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HangedMan.jpg; sourceTree = "<group>"; };
+		9A60F4311AA5BA97006C625A /* Heirophant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Heirophant.jpg; sourceTree = "<group>"; };
+		9A60F4321AA5BA97006C625A /* Hermit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hermit.jpg; sourceTree = "<group>"; };
+		9A60F4331AA5BA97006C625A /* HighPriestess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HighPriestess.jpg; sourceTree = "<group>"; };
+		9A60F4341AA5BA97006C625A /* Judgement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Judgement.jpg; sourceTree = "<group>"; };
+		9A60F4351AA5BA97006C625A /* Justice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Justice.jpg; sourceTree = "<group>"; };
+		9A60F4361AA5BA97006C625A /* Lovers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lovers.jpg; sourceTree = "<group>"; };
+		9A60F4371AA5BA97006C625A /* Magician.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Magician.jpg; sourceTree = "<group>"; };
+		9A60F4381AA5BA97006C625A /* Moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moon.jpg; sourceTree = "<group>"; };
+		9A60F4391AA5BA97006C625A /* Star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Star.jpg; sourceTree = "<group>"; };
+		9A60F43A1AA5BA97006C625A /* Strength.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Strength.jpg; sourceTree = "<group>"; };
+		9A60F43B1AA5BA97006C625A /* Sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sun.jpg; sourceTree = "<group>"; };
+		9A60F43C1AA5BA97006C625A /* Temperance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Temperance.jpg; sourceTree = "<group>"; };
+		9A60F43D1AA5BA97006C625A /* Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tower.jpg; sourceTree = "<group>"; };
+		9A60F43E1AA5BA97006C625A /* WheelOfFortune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WheelOfFortune.jpg; sourceTree = "<group>"; };
+		9A60F43F1AA5BA97006C625A /* World.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = World.jpg; sourceTree = "<group>"; };
+		9A60F4571AA5C192006C625A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +123,10 @@
 		9A60F4041AA5BA54006C625A /* Tarot */ = {
 			isa = PBXGroup;
 			children = (
+				9A60F45A1AA691CC006C625A /* Controller */,
+				9A60F4561AA5C173006C625A /* Model */,
+				9A60F4271AA5BA71006C625A /* Images */,
 				9A60F4071AA5BA54006C625A /* AppDelegate.swift */,
-				9A60F4091AA5BA54006C625A /* ViewController.swift */,
 				9A60F40B1AA5BA54006C625A /* Main.storyboard */,
 				9A60F40E1AA5BA54006C625A /* Images.xcassets */,
 				9A60F4101AA5BA54006C625A /* LaunchScreen.xib */,
@@ -110,6 +158,68 @@
 				9A60F41C1AA5BA55006C625A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A60F4271AA5BA71006C625A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F4281AA5BA7B006C625A /* MajorArcana */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9A60F4281AA5BA7B006C625A /* MajorArcana */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F4291AA5BA97006C625A /* tarotImages(1) */,
+			);
+			name = MajorArcana;
+			sourceTree = "<group>";
+		};
+		9A60F4291AA5BA97006C625A /* tarotImages(1) */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F42A1AA5BA97006C625A /* Chariot.jpg */,
+				9A60F42B1AA5BA97006C625A /* Death.jpg */,
+				9A60F42C1AA5BA97006C625A /* Devil.jpg */,
+				9A60F42D1AA5BA97006C625A /* Emperor.jpg */,
+				9A60F42E1AA5BA97006C625A /* Empress.jpg */,
+				9A60F42F1AA5BA97006C625A /* Fool.jpg */,
+				9A60F4301AA5BA97006C625A /* HangedMan.jpg */,
+				9A60F4311AA5BA97006C625A /* Heirophant.jpg */,
+				9A60F4321AA5BA97006C625A /* Hermit.jpg */,
+				9A60F4331AA5BA97006C625A /* HighPriestess.jpg */,
+				9A60F4341AA5BA97006C625A /* Judgement.jpg */,
+				9A60F4351AA5BA97006C625A /* Justice.jpg */,
+				9A60F4361AA5BA97006C625A /* Lovers.jpg */,
+				9A60F4371AA5BA97006C625A /* Magician.jpg */,
+				9A60F4381AA5BA97006C625A /* Moon.jpg */,
+				9A60F4391AA5BA97006C625A /* Star.jpg */,
+				9A60F43A1AA5BA97006C625A /* Strength.jpg */,
+				9A60F43B1AA5BA97006C625A /* Sun.jpg */,
+				9A60F43C1AA5BA97006C625A /* Temperance.jpg */,
+				9A60F43D1AA5BA97006C625A /* Tower.jpg */,
+				9A60F43E1AA5BA97006C625A /* WheelOfFortune.jpg */,
+				9A60F43F1AA5BA97006C625A /* World.jpg */,
+			);
+			name = "tarotImages(1)";
+			path = "../../../../Google Drive/Uni Work (dropbox mirror)/Year 3/iOS Software Engineering/Tutorials/tarotImages(1)";
+			sourceTree = "<group>";
+		};
+		9A60F4561AA5C173006C625A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F4571AA5C192006C625A /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A60F45A1AA691CC006C625A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F4091AA5BA54006C625A /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +302,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A60F4401AA5BA97006C625A /* Chariot.jpg in Resources */,
+				9A60F4441AA5BA97006C625A /* Empress.jpg in Resources */,
+				9A60F44E1AA5BA97006C625A /* Moon.jpg in Resources */,
+				9A60F4551AA5BA97006C625A /* World.jpg in Resources */,
+				9A60F4511AA5BA97006C625A /* Sun.jpg in Resources */,
+				9A60F4451AA5BA97006C625A /* Fool.jpg in Resources */,
+				9A60F4431AA5BA97006C625A /* Emperor.jpg in Resources */,
+				9A60F44F1AA5BA97006C625A /* Star.jpg in Resources */,
+				9A60F4521AA5BA97006C625A /* Temperance.jpg in Resources */,
+				9A60F44C1AA5BA97006C625A /* Lovers.jpg in Resources */,
+				9A60F4491AA5BA97006C625A /* HighPriestess.jpg in Resources */,
+				9A60F44B1AA5BA97006C625A /* Justice.jpg in Resources */,
+				9A60F4411AA5BA97006C625A /* Death.jpg in Resources */,
+				9A60F4501AA5BA97006C625A /* Strength.jpg in Resources */,
+				9A60F4421AA5BA97006C625A /* Devil.jpg in Resources */,
+				9A60F44A1AA5BA97006C625A /* Judgement.jpg in Resources */,
+				9A60F4481AA5BA97006C625A /* Hermit.jpg in Resources */,
 				9A60F40D1AA5BA54006C625A /* Main.storyboard in Resources */,
 				9A60F4121AA5BA54006C625A /* LaunchScreen.xib in Resources */,
+				9A60F4531AA5BA97006C625A /* Tower.jpg in Resources */,
+				9A60F44D1AA5BA97006C625A /* Magician.jpg in Resources */,
+				9A60F4471AA5BA97006C625A /* Heirophant.jpg in Resources */,
 				9A60F40F1AA5BA54006C625A /* Images.xcassets in Resources */,
+				9A60F4541AA5BA97006C625A /* WheelOfFortune.jpg in Resources */,
+				9A60F4461AA5BA97006C625A /* HangedMan.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A60F4581AA5C192006C625A /* Model.swift in Sources */,
 				9A60F40A1AA5BA54006C625A /* ViewController.swift in Sources */,
 				9A60F4081AA5BA54006C625A /* AppDelegate.swift in Sources */,
 			);
