@@ -540,6 +540,7 @@
 				9A60F4231AA5BA55006C625A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A60F4241AA5BA55006C625A /* Build configuration list for PBXNativeTarget "TarotTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +549,7 @@
 				9A60F4261AA5BA55006C625A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
